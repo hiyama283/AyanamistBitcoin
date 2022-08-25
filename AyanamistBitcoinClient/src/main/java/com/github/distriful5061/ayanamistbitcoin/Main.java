@@ -26,6 +26,10 @@ public class Main {
             saveArgsConfig(args.clone());
         }
 
+        while (true) {
+            System.out.print("Select Option,\n1. Generate Wallet, 2. Check Wallet\n>");
+            int selectedOption = Integer.parseInt(scanner.next());
+        }
     }
 
     private static boolean toBoolean(String name) {
